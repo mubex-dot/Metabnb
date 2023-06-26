@@ -23,3 +23,8 @@
 .headerItem {
   border: 1px solid red;
 }
+
+.colorText {
+  color: #a02279;
+  font-weight: 600;
+}

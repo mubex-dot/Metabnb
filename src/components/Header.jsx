@@ -147,8 +147,6 @@ function Header() {
                   color: "#434343",
                   display: "block",
                   textTransform: "capitalize",
-                  //   letterSpacing: ".05rem",
-                  //   width: "1%",
                 }}
                 className="headerItem"
               >
@@ -157,19 +155,7 @@ function Header() {
             ))}
           </Box>
 
-          <Button
-            variant="contained"
-            sx={{
-              backgroundColor: "#A02279",
-              fontWeight: 400,
-              textTransform: "capitalize",
-              ":hover": {
-                color: "#a02279",
-                backgroundColor: "#fff",
-              },
-            }}
-            onClick={handleOpen}
-          >
+          <Button variant="contained" onClick={handleOpen}>
             Connect Wallet
           </Button>
           <Modal
