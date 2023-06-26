@@ -1,0 +1,25 @@
+* {
+  font-family: "Red Rose", cursive;
+}
+
+.logoName {
+  background-image: linear-gradient(#dc3e88, #bb40ae, #843fe8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headerLogo {
+  width: 1.5em;
+  padding-bottom: 0.4em;
+}
+
+.menuItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerItem {
+  border: 1px solid red;
+}
