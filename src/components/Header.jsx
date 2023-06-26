@@ -122,7 +122,7 @@ function Header() {
               display: { xs: "flex", md: "none" },
               flexGrow: 1,
               fontWeight: 700,
-              letterSpacing: ".3rem",
+              // letterSpacing: ".3rem",
               color: "blue",
               textDecoration: "none",
               mr: 2,
