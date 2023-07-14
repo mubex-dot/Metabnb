@@ -37,8 +37,6 @@ function Slider() {
               style={{
                 height: "3em",
                 width: "7em",
-                // padding: "0 3.5em",
-                // display: "flex",
               }}
               src={item.img}
               alt="MbToken"
