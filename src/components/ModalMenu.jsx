@@ -22,9 +22,6 @@ const btn = [
   },
 ];
 
-// [, ""]
-// ["Metamask", "WalletConnect"]
-
 export default function ModalMenu(props) {
   return (
     <Paper

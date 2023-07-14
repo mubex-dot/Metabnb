@@ -3,7 +3,6 @@ import { outlinedInputClasses } from "@mui/material/OutlinedInput";
 
 import Header from "./components/Header";
 import Search from "./components/Search";
-import { Container } from "@mui/material";
 
 const customTheme = (outerTheme) =>
   createTheme({
@@ -91,16 +90,12 @@ function App() {
   const outerTheme = useTheme();
 
   return (
-    <div className="App">
+    <ThemeProvider theme={customTheme(outerTheme)}>
+      <Header />
       <ThemeProvider theme={customTheme(outerTheme)}>
-        <Header />
-        <Container>
-          <ThemeProvider theme={customTheme(outerTheme)}>
-            <Search />
-          </ThemeProvider>
-        </Container>
+        <Search />
       </ThemeProvider>
-    </div>
+    </ThemeProvider>
   );
 }
 

@@ -46,19 +46,19 @@ function Header() {
 
   return (
     <AppBar
-      position="static"
+      elevation={0}
+      position="fixed"
       sx={{
         backgroundColor: "#fff",
       }}
     >
       <Container maxWidth="xl">
-        <Toolbar disableGutters>
+        <Toolbar>
           <img src={headerLogo} className="headerLogo" />
           <Typography
             variant="h6"
             noWrap
             component="a"
-            href="/"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -122,7 +122,6 @@ function Header() {
               display: { xs: "flex", md: "none" },
               flexGrow: 1,
               fontWeight: 700,
-              // letterSpacing: ".3rem",
               color: "blue",
               textDecoration: "none",
               mr: 2,
