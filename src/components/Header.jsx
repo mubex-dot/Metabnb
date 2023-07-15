@@ -64,6 +64,7 @@ function Header() {
               display: { xs: "none", md: "flex" },
               fontWeight: 700,
               textDecoration: "none",
+              color: "#a02279",
             }}
             className="logoName"
           >
